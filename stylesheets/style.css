@@ -24,3 +24,8 @@ a {
   text-align: center;
   text-decoration: none;
 }
+
+.card:hover {
+  transform: translateY(-16px);
+  transition: transform 0.3s ease;
+}
