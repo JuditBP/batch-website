@@ -1,0 +1,167 @@
+body {
+  font-family: "Zain", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 10%;
+  padding: 0px;
+  margin: 16px;
+  background-color: skyblue;
+}
+
+h1, h2 {
+  font-weight: 700;
+  color: blue;
+}
+
+h1 {
+  font-size: 50px;
+  padding: 15px;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 40px;
+  padding: 15px;
+  margin: 20px;
+}
+
+p {
+  padding: 15px;
+  margin: 20px;
+  font-size: 20px;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+a:hover {
+  color: black;
+}
+
+.list-inline {
+  padding: 15px;
+  margin: 20px;
+}
+
+.list-inline > li {
+  display: inline;
+  margin: 24px;
+}
+
+img {
+  margin: 20px;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+/* Classes styles */
+
+.container {
+  width: 800px;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.btn-violet {
+  display: inline-block;
+  text-align: none;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: blueviolet;
+  margin-top: 10px;
+}
+
+.white-card {
+  background-color: white;
+  padding: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+}
+
+i {
+  font-size: 50px;
+  color: black
+}
+
+#my_github {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Media queries */
+
+@media (max-width: 960px) {
+  /* Para pantallas < 960px */
+  .container {
+    width: 700px;
+  }
+  h1 {
+    font-size: 40px; /* Reducir tamaño de fuente */
+    margin: 15px;
+  }
+  h2 {
+    font-size: 30px; /* Reducir tamaño de fuente */
+    margin: 15px;
+  }
+  p {
+    font-size: 18px; /* Reducir tamaño de fuente */
+    margin: 10px; /* Reducir el margen */
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+  h1 {
+    font-size: 30px;
+    margin: 10px 0;
+  }
+  h2 {
+    font-size: 22px;
+    margin: 8px 0;
+  }
+  p {
+    font-size: 16px;
+    margin: 6px 0;
+    line-height: 1.4;
+    display: block;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+  h1 {
+    font-size: 30px;
+    margin: 8px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 8px;
+  }
+  p {
+    font-size: 14px;
+    margin: 6px;
+    line-height: 1.4;
+  }
+  img {
+    width: 150px;
+    height: 150px;
+  }
+}
