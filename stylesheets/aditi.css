@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(216, 240, 238);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  font-size: medium;
+  line-height: 24px;
+}
+.container {
+  width: 700px;
+  margin: auto;
+}
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 50px;
+  color: rgb(71, 144, 164);
+}
+h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 200;
+  font-size: small;
+  font-style: normal;
+  color: rgb(71, 144, 164);
+}
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(71, 144, 164);
+}
+a {
+  text-decoration: none;
+  color: rgb(71, 144, 164);
+}
+.card-white {
+  background-color: white;
+  padding: 24px 48px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
+  margin: 32px 0;
+}
+.img-circle {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+.btn-green {
+  background-color: rgb(71, 144, 164);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.btn-green:hover {
+  background-color:rgb(18, 69, 83);
+}
+.inline-list li {
+  display: inline;
+  margin: 0 0;
+  font-size: 32px;
+}
+.inline-list {
+  padding: 0;
+}
+.fa-brands.fa-square-github:hover, .fa-brands.fa-linkedin:hover, .fa-brands.fa-square-instagram:hover {
+  color:rgb(18, 69, 83);
+}
