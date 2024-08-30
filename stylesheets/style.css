@@ -4,9 +4,13 @@
 @import url("stylesheets/pages/daniel.css");
 @import url("stylesheets/pages/judit_style.css");
 
+.body{
+}
+
 .container {
   margin: auto;
   width: 50%;
+  background-image: url("paper.gif");
 }
 
 .card {
@@ -23,8 +27,14 @@
   font-size: x-large;
   justify-content: center;
   padding: 35px;
+  transition: transform 0.3s ease;
+}
+
+.header_container {
+  margin-bottom: 48px;
 
 }
+
 .cards{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -33,5 +43,9 @@
 
 a {
   text-decoration: none;
+}
 
+.card:hover {
+  transform: translateY(-16px);
+  transition: transform 0.3s ease;
 }
