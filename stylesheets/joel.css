@@ -1,0 +1,74 @@
+html {
+  background-color: rgb(179, 243, 243);
+  font-family: cursive;
+}
+
+.navbar {
+  display: flex;
+  position: sticky;
+  top: 0px;
+  background-color: rgb(109, 248, 202);
+  padding: 10px;
+  justify-content: space-around;
+  border-bottom: solid 2px green;
+  height: 50px;
+  align-items: center;
+  width: 100vw;
+}
+
+.navbar > a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.navbar > a:hover {
+  transition-duration: 1s;
+  background-color: green;
+  transform: translate(7px);
+}
+
+.name-background {
+  font-size: 60px;
+  text-align: center;
+  background-size: contain;
+  background-image: url("../images/southbeach.jpg");
+  width: 100vw;
+  height: 600px;
+}
+
+.name-background h1 {
+  text-align: center;
+  margin-top: 300px;
+}
+
+.image {
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border: solid 2px green;
+  border-radius: 5px;
+}
+
+.info {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+.info-intro {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.paragraphs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
