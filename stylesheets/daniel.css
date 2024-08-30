@@ -1,0 +1,114 @@
+
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: "Fira Sans Condensed", sans-serif;
+  background-color: #F5F5DC;
+  color: #4B2E2E;
+  line-height: 1.6;
+  text-align: center;
+}
+
+
+header {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: "Nanum Gothic", sans-serif;
+  background-color: powderblue;
+  color: black;
+  padding: 20px;
+}
+
+h2 {
+  font-family: "Qwitcher Grypen", cursive;
+  color: #4B2E2E;
+}
+
+
+img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.card {
+  background-color: powderblue;
+  padding: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+
+.card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+
+p {
+  font-style: italic;
+  padding: 0 20px;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+
+a {
+  color: #4B2E2E;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #A52A2A;
+  text-decoration: underline;
+}
+
+
+
+
+@media (max-width: 960px) {
+  .container {
+    max-width: 700px;
+  }
+}
+
+
+@media (max-width: 720px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .container {
+    max-width: 300px;
+  }
+}
