@@ -11,6 +11,7 @@ html {
 body {
   background-image: url("../images/southbeac_at_night.jpg");
   background-size: cover;
+  cursor: url('../images/cursor-png-1104.png'), auto;
 
 }
 
@@ -40,7 +41,7 @@ body {
 }
 
 .navbar:hover {
-  border: solid 1px ;
+  border: solid 1px red;
   filter: brightness(1.25);
 }
 
@@ -48,7 +49,7 @@ body {
   text-decoration: none;
   color: red;
   padding: 5px 15px;
-  border-radius: 5px;
+  border-radius: 10px;
   border: solid 1px red;
   font-size: 20px;
   text-shadow: 0 0 20px red;
@@ -62,9 +63,9 @@ body {
   box-shadow: 1px 1px 30px 0px greenyellow, -1px -1px 30px 0px greenyellow;
   color: greenyellow;
   transition-timing-function: ease;
-  background-color: black;
-  transform: rotateY(360deg);
+  transform: rotate(360deg);
   filter: brightness(1.25);
+  text-shadow: 0px 1px 5px greenyellow, 0px -1px 5px greenyellow,1px 0px 5px greenyellow, -1px 0px 5px greenyellow;
 }
 
 h1 {
@@ -113,7 +114,10 @@ h1 {
   height: 150px;
   overflow: hidden;
   overflow-y: scroll;
-  scroll
+}
+
+.info-intro::-webkit-scrollbar {
+  display: none;
 }
 
 .paragraphs {
@@ -145,5 +149,5 @@ i:hover {
   transform: scale(1.25);
   transition-duration: 1.5s;
   transition-timing-function: ease;
-  text-shadow: 0px 10px 20px  rgb(83, 162, 252),  0px -10px 20px  rgb(83, 162, 252), 10px 0px 20px  rgb(83, 162, 252),  -10px -0px 20px  rgb(83, 162, 252);
+  text-shadow: 0px 10px 20px  rgb(83, 162, 252),  0px -10px 20px  rgb(83, 162, 252), 10px 0px 20px  rgb(83, 162, 252),  -10px 0px 20px  rgb(83, 162, 252);
 }
