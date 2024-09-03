@@ -1,0 +1,153 @@
+html {
+  background-color: rgb(179, 243, 243);
+  letter-spacing: 6px;
+  word-spacing: 6px;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+body {
+  background-image: url("../images/southbeac_at_night.jpg");
+  background-size: cover;
+  cursor: url('../images/cursor-png-1104.png'), auto;
+
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  border: solid 1px red;
+  background-color: black;
+  box-sizing: -10px 0px 10px red;
+}
+
+.navbar-h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  position: sticky;
+  top: 0px;
+}
+
+.navbar {
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+  border: solid 1px red;
+  box-shadow: 0px 10px 20px 0 red,  -10px -10px 20px 0 red;
+}
+
+.navbar:hover {
+  border: solid 1px red;
+  filter: brightness(1.25);
+}
+
+.navbar > a {
+  text-decoration: none;
+  color: red;
+  padding: 5px 15px;
+  border-radius: 10px;
+  border: solid 1px red;
+  font-size: 20px;
+  text-shadow: 0 0 20px red;
+  box-shadow: 1px 1px 30px 0px rgb(255, 0, 0), -1px -1px 30px 0px red;
+
+}
+
+.navbar > a:hover {
+  transition-duration: 1.5s;
+  border: solid greenyellow  1px;
+  box-shadow: 1px 1px 30px 0px greenyellow, -1px -1px 30px 0px greenyellow;
+  color: greenyellow;
+  transition-timing-function: ease;
+  transform: rotate(360deg);
+  filter: brightness(1.25);
+  text-shadow: 0px 1px 5px greenyellow, 0px -1px 5px greenyellow,1px 0px 5px greenyellow, -1px 0px 5px greenyellow;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+  color: yellow;
+  position: sticky;
+  top: 130px;
+  padding: 15px;
+  font-weight: 300;
+  text-shadow: 0px 10px 20px yellow, 0px -10px 20px yellow,10px 0px 20px yellow, -10px 0px 20px yellow;
+}
+
+.image {
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 40px 0px rgb(83, 162, 252), -1px -1px 40px 0px rgb(83, 162, 252);
+  border: solid 1px rgb(83, 162, 252);
+  transition-duration: 1s;
+}
+
+.image:hover{
+  box-shadow: 1px 1px 40px 0px rgb(83, 162, 252), -1px -1px 40px 0px rgb(83, 162, 252);
+  border: solid 1px rgb(83, 162, 252);
+  filter: brightness(1.25);
+  transition-duration: 1s;
+}
+
+.info {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+.info-intro {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  padding: 40px;
+  justify-content: flex-start;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 150px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.info-intro::-webkit-scrollbar {
+  display: none;
+}
+
+.paragraphs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: greenyellow;
+  background-color: rgba( 0, 0, 0, .3);
+}
+
+footer {
+  border: solid 1px  rgb(83, 162, 252);
+  box-shadow: 0px 10px 20px 0  rgb(83, 162, 252),  -10px -10px 20px 0  rgb(83, 162, 252);
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+i {
+  color:  rgb(83, 162, 252);
+  font-size: 30px;
+}
+
+i:hover {
+  color:  rgb(83, 162, 252);
+  font-size: 30px;
+  transform: scale(1.25);
+  transition-duration: 1.5s;
+  transition-timing-function: ease;
+  text-shadow: 0px 10px 20px  rgb(83, 162, 252),  0px -10px 20px  rgb(83, 162, 252), 10px 0px 20px  rgb(83, 162, 252),  -10px 0px 20px  rgb(83, 162, 252);
+}
